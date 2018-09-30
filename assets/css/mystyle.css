@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/bgimagen.png);
+    background-color: beige;
+    width: 30%;
+    height: 30%;
+}
+
+.monkeesbg{
+    width: 100vw;
+}
