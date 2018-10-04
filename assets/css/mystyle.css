@@ -1,6 +1,8 @@
 body {
 
     background-color: #FFFACD;
+    font-family: 'Permanent Marker', cursive;
+    color: #6b0533;
 
 }
 
@@ -16,15 +18,7 @@ body {
     border-color: #c2ffa3;
 }
 
-@media (max-width:760px) {
-    .monkeeshome {
-        border-left: 1px solid;
-        margin: 0;
-        border-right: 1px solid;
-    }
-}
 
-}
 
 .nav-color {
     background-color: #FFFACD !important;
@@ -34,4 +28,99 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.tex-center {
+    text-align: center;
+}
+
+/*----------------------------------- About*/
+
+.monkees-h {
+    margin: 75px 55px 35px 55px;
+}
+
+/*----------------------------------- History*/
+
+.container-history {
+    padding: 30px;
+}
+
+.history-h {
+    margin-bottom: 30px;
+}
+
+/*----------------------------------- Members*/
+
+.container-members {
+    padding: 30px;
+}
+
+.members-h {
+    margin-bottom: 30px;
+}
+
+.memberbox img {
+    width: 100px;
+    margin: 20px;
+    height: 70px;
+}
+
+/*----------------------------------- Video*/
+
+.container-videos {
+    background-color: #ff7f50e0;
+}
+
+.videos-h {
+    margin: 75px 55px 75px 55px;
+
+}
+
+.video-style {
+
+    max-width: 95vw;
+    text-align: center;
+    margin: 0 170px 75px;
+}
+
+/*----------------------------------- Music*/
+
+.music-h {
+    margin: 75px 55px 35px 55px;
+
+}
+
+.container-music {
+    margin: 0px 55px 0px 55px;
+}
+
+.container-song {
+    padding: 30px;
+}
+
+.container-m {
+    margin-bottom: 50px;
+}
+
+@media (max-width:760px) {
+    .monkeeshome {
+        border-left: 1px solid;
+        margin: 0;
+        border-right: 1px solid;
+    }
+    .video-style {
+
+        max-width: 95vw;
+        text-align: center;
+        margin-left: 30px;
+    }
+}
+
+footer {
+    background-color: #28a745;
 }

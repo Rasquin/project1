@@ -20,30 +20,30 @@
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-light nav-color">
-            <a class="navbar-brand uppercase" href="home"><img src="assets/images/guitar.png"></img></a>
+            <a class="navbar-brand uppercase" href="index.html"><img src="assets/images/guitar.png"></img></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="container">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="history">History</a>
-                                <a class="dropdown-item" href="members">Members</a>
+                                <a class="dropdown-item" href="#history">History</a>
+                                <a class="dropdown-item" href="#members">Members</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Listen</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Videos</a>
-                                <a class="dropdown-item" href="#">Music</a>
+                                <a class="dropdown-item" href="#videos">Videos</a>
+                                <a class="dropdown-item" href="#music">Music</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <a class="navbar-brand uppercase" href="#"><img src="assets/images/heads.png"></img></a>
+            <a class="navbar-brand uppercase" href="#members"><img src="assets/images/heads.png"></img></a>
 
 
         </nav>
@@ -62,38 +62,174 @@
 
     <section id="home">
 
-    <div class="row">
-        <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
 
-            <img src="assets/images/monkees.jpg" class="monkeeshome"></img>
+                <img src="assets/images/monkees.jpg" class="monkeeshome"></img>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="row justify-content-center">
+            <h1 class="monkees-h">The Monkees</h1>
+        </div>
+        <div class="row monkees-articles justify-content-center">
+            <div class="col-md-12 col-lg-6">
+                <article id="history" class="container-history">
+                    <h2 class="text-center history-h">History</h2>
+                    <p class="text-justify"> <a href="https://en.wikipedia.org/wiki/The_Monkees"target="_blank">The Monkees</a> are an American rock and pop band formed in Los Angeles in 1965. Originally they were four actor-musicians for the American television series "The Monkees" (1966 - 1968). The band was integrated by Americans Micky Dolenz,
+                        Michael Nesmith, and Peter Tork; and the British actor and singer Davy Jones.
+                    </p>
+                    <img src="assets/images/cover1.jpg" alt="Group The Monkees"></img>
+                </article>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <article id="members" class="container-members">
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 ">
+                            <h2 class="members-h">Members</h2>
+                        </div>
+                    </div>
+                    <div class="row memberbox">
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="assets/images/md.jpg" alt="Micky Dolenz"></img>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="member">
+                                        <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Micky_Dolenz">Micky Dolenz</a></h3>
+                                        <h4>Drum Kits</h4>
+                                        <p>(since 1966)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="assets/images/mn.jpg" alt="Michael Nesmith"></img>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="member">
+                                        <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Michael_Nesmith">Michael Nesmith</a></h3>
+                                        <h4>Guitars</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row memberbox">
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="assets/images/pt.jpg" alt="Peter Tork"></img>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="member">
+                                        <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Peter_Tork">Peter Tork</a></h3>
+                                        <h4>Guitars</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="assets/images/dj.jpg" alt="Davy Jones"></img>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="member">
+                                        <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)">Davy Jones</a></h3>
+                                        <h4>Guitars</h4>
+                                        <p>(1966-2012)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="container-videos">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center videos-h">Videos</h2>
+                <video class="video-style" src="assets/video/TheMonkees.mp4" controls>
+	</video>
+            </div>
+        </div>
+    </section>
+
+    <section id="music" class="container-m">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 ">
+                <h2 class="music-h">Music</h2>
+            </div>
+        </div>
+        <div class="row memberbox container-music">
+            <div class="col-xs-12 col-lg-6 container-song">
+
+                <h3> <a href="https://en.wikipedia.org/wiki/Last_Train_to_Clarksville" target="_blank">Clarksville (1966)</a></h3>
+                <p class="text-justify">The song was written by Tommy Boyce and Bobby Hart. The lyrics tell of a man phoning the woman he loves, urging her to meet him at a train station in Clarksville before he must leave, possibly forever.</p>
+                <img src="assets/images/album.jpg" alt="Album"></img>
+                <audio controls>
+                       <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                </audio>
+
+            </div>
+
+            <div class="col-xs-12 col-lg-6 container-song">
+                <h3><a href="https://en.wikipedia.org/wiki/I%27m_a_Believer" target="_blank">I am a Believer (1966)</a></h3>
+                <p class="text-justify">It is a song composed by Neil Diamond.The song was No. 1 in the UK Singles Chart for four weeks in January and February 1967 and reached the top spot in numerous countries, including Australia, New Zealand, Canada, and Ireland.</p>
+                <img src="assets/images/album2.jpg" alt="Album 2"></img>
+                <audio controls>
+                       <source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                </audio>
+            </div>
+
 
         </div>
-    </div>
-    </section>
-    
-    <section id="about">
-       <div class="row">
-           <h1>The Monkees</h1>
-       </div>
-       <div class="row">
-           <div class="col-lg-6">
-               <article id="history">
-                   <h2>History</h2>
-                   <p>The Monkees are an American rock and pop band formed in Los Angeles in 1965.
-                   Originally they were four actor-musicians for the American television series "The Monkees" (1966 - 1968).
-                   The band was integrated by Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the British actor and singer Davy Jones.
-                   </p>
-               </article>
-           </div>
-            <div class="col-lg-6">
-               <article id="members">
-                   <h2>Members</h2>
-               </article>
-           </div>
-       </div>
-    </section>
+        <div class="row memberbox container-music">
+
+            <div class="col-xs-12 col-lg-6 container-song">
+                <h3><a href="https://en.wikipedia.org/wiki/(I%27m_Not_Your)_Steppin%27_Stone" target="_blank">Stepping Stone (1966)</a></h3>
+                <p class="text-justify">It is a song written by Tommy Boyce and Bobby Hart. The song is simple musically, with a repeating verse chord progression of E major, G major, A major, and C major, and a repeating bridge in cut time of E major, G major, A major, and
+                    G major. </p>
+                <img src="assets/images/album3.jpg" alt="Album 3"></img>
+                <audio controls>
+                       <source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="col-xs-12 col-lg-6 container-song">
+                <h3><a href="https://en.wikipedia.org/wiki/Daydream_Believer" target="_blank">Daydream Believer (1967)</a></h3>
+                <p class="text-justify">The song composed by John Stewart. The soong is about Married couples that start out in an idealistic haze, but after a few years it wears off, and each sees the other as he or she really is. This is, supposedly, when genuine love is proven.</p>
+                <img src="assets/images/cover.jpg" alt="Cover"></img>
+                <audio controls>
+                       <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                </audio>
+            </div>
 
 
+        </div>
+
+
+    </section>
     <footer Class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4 ">
@@ -105,7 +241,7 @@
             </div>
             <div class="col-sm-4">
 
-                <ul class="list-inline social-links"> 
+                <ul class="list-inline social-links">
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
