@@ -24,6 +24,10 @@ body {
     background-color: #FFFACD !important;
 }
 
+.dropdown-item {
+   
+    color: #dc3545;
+}
 /*----------------------------------- Text Styles*/
 
 .uppercase {
@@ -38,9 +42,23 @@ body {
     text-align: center;
 }
 
+a {
+    color: #721c24;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.43rem;
+}
+
 /*----------------------------------- About*/
 
 .monkees-h {
+    text-transform: uppercase;
+    font-weight: bold; 
     margin: 75px 55px 35px 55px;
 }
 
@@ -51,7 +69,12 @@ body {
 }
 
 .history-h {
+    text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+.group-img{
+    margin: 35px 30px 30px 70px;
 }
 
 /*----------------------------------- Members*/
@@ -61,6 +84,7 @@ body {
 }
 
 .members-h {
+    text-transform: uppercase;
     margin-bottom: 30px;
 }
 
@@ -74,9 +98,11 @@ body {
 
 .container-videos {
     background-color: #ff7f50e0;
+    padding: 0;
 }
 
 .videos-h {
+    text-transform: uppercase;
     margin: 75px 55px 75px 55px;
 
 }
@@ -85,12 +111,13 @@ body {
 
     max-width: 95vw;
     text-align: center;
-    margin: 0 170px 75px;
+        margin: 0 40px 75px 75px;
 }
 
 /*----------------------------------- Music*/
 
 .music-h {
+    text-transform: uppercase;
     margin: 75px 55px 35px 55px;
 
 }
@@ -107,20 +134,71 @@ body {
     margin-bottom: 50px;
 }
 
+audio {
+        margin-left: -55px;
+}
+
+/*----------------------------------- Contact*/
+.container-contact{
+    background-color: coral;
+        padding: 5% 20%;
+}
+
+.description{
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------------- FOOTER*/
+footer {
+    background-color: #28a745;
+    min-height: 120px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+#container-footer {
+    margin: 20px;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+
+/*----------------------------------- FMEDIA QUERIES*/
 @media (max-width:760px) {
     .monkeeshome {
         border-left: 1px solid;
         margin: 0;
         border-right: 1px solid;
+        width: 100%;
     }
     .video-style {
 
         max-width: 95vw;
         text-align: center;
-        margin-left: 30px;
+        margin: 0 10px 30px;
     }
+
+.group-img {
+    margin: 35px 10px 30px 30px;
+}
 }
 
-footer {
-    background-color: #28a745;
+@media (min-width:768px){
+    audio {
+        margin-left: 0px;
+}}
+
+@media (min-width:1200px){
+.video-style {
+   
+    margin: 0 310px 75px;
 }
+    
+
+}
+
