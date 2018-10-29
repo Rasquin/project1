@@ -9,16 +9,6 @@ body {
 
 /*------------------------------------NavBar*/
 
-.monkeeshome {
-    width: 100vw;
-    max-height: 100vh;
-    margin: 0;
-    padding: 0;
-    border: 40px solid;
-    border-color: #c2ffa3;
-}
-
-
 
 .nav-color {
     background-color: #FFFACD !important;
@@ -29,19 +19,17 @@ body {
     color: #dc3545;
 }
 
+/*------------------------------------Home*/
+.home-bg {
+    background-color: #c2ffa3;
+}
+.monkeeshome {
+    width: 97vw;
+    margin: 0;
+    padding: 2% 0;
+}
+
 /*----------------------------------- Text Styles*/
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.text-justify {
-    text-align: justify;
-}
-
-.tex-center {
-    text-align: center;
-}
 
 a {
     color: #721c24;
@@ -58,7 +46,6 @@ h3 {
 /*----------------------------------- About*/
 
 .monkees-h {
-    text-transform: uppercase;
     font-weight: bold;
     margin: 75px 55px 35px 55px;
 }
@@ -68,12 +55,12 @@ h3 {
 .container-history {
     padding: 30px;
 }
-
 .history-h {
-    text-transform: uppercase;
     margin-bottom: 30px;
 }
-
+#history .shadow {
+    box-shadow: .5rem 1rem  #c2ffa3e0!important;
+}
 .group-img {
     padding: 5% 20%;
 }
@@ -83,31 +70,29 @@ h3 {
 .container-members {
     padding: 30px;
 }
-
 .members-h {
-    text-transform: uppercase;
     margin-bottom: 30px;
 }
-
+#members .shadow {
+    box-shadow: .5rem 1rem #ff7f50e0!important;
+}
 .memberbox img {
     width: 100px;
     margin: 20px;
     height: 70px;
 }
-
+.member{
+    padding-left: 10px;
+}
 /*----------------------------------- Video*/
 
 .container-videos {
     background-color: #ff7f50e0;
     padding: 0;
 }
-
 .videos-h {
-    text-transform: uppercase;
     margin: 75px 55px 75px 55px;
-
 }
-
 .video-style {
     width: 100%;
     text-align: center;
@@ -117,25 +102,21 @@ h3 {
 /*----------------------------------- Music*/
 
 .music-h {
-    text-transform: uppercase;
-    margin: 75px 55px 35px 55px;
-
+     margin: 75px 55px 35px 55px;
 }
-
 .container-music {
     margin: 0px 55px 0px 55px;
 }
-
 .container-song {
     padding: 30px;
 }
 
-.container-m {
-    margin-bottom: 50px;
+#music .shadow {
+    box-shadow: .5rem 1rem #ff7f50e0!important;
 }
-
 audio {
-    margin:0;
+    margin: 0;
+    width: 250px;
 }
 
 /*----------------------------------- Contact*/
@@ -188,20 +169,20 @@ footer {
         border-right: 1px solid;
         width: 100%;
     }
-   
+
 
     .group-img {
         padding: 5% 10%;
     }
-     .video-style {
+    .video-style {
 
         width: 100%;
         text-align: center;
         padding: 0 5% 5%;
     }
-    
+
     .container-music {
-        margin:0;
+        margin: 0;
         padding: 5%;
     }
     .container-contact-form {
@@ -214,5 +195,3 @@ footer {
         margin-left: 0px;
     }
 }
-
-

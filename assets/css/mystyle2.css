@@ -1,37 +1,198 @@
 body {
 
     background-color: #FFFACD;
+    font-family: 'Permanent Marker', cursive;
+    color: #6b0533;
 
 }
 
 
 /*------------------------------------NavBar*/
 
-.monkeeshome {
-    width: 100vw;
-    max-height: 100vh;
-    margin: 0;
-    padding: 0;
-    border: 40px solid;
-    border-color: #c2ffa3;
+
+.nav-color {
+    background-color: #FFFACD !important;
 }
+
+.dropdown-item {
+
+    color: #dc3545;
+}
+
+/*------------------------------------Home*/
+.home-bg {
+    background-color: #c2ffa3;
+}
+.monkeeshome {
+    width: 97vw;
+    margin: 0;
+    padding: 2% 0;
+}
+
+/*----------------------------------- Text Styles*/
+
+a {
+    color: #721c24;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.43rem;
+}
+
+/*----------------------------------- About*/
+
+.monkees-h {
+    font-weight: bold;
+    margin: 75px 55px 35px 55px;
+}
+
+/*----------------------------------- History*/
+
+.container-history {
+    padding: 30px;
+}
+.history-h {
+    margin-bottom: 30px;
+}
+#history .shadow {
+    box-shadow: .5rem 1rem  #c2ffa3e0!important;
+}
+.group-img {
+    padding: 5% 20%;
+}
+
+/*----------------------------------- Members*/
+
+.container-members {
+    padding: 30px;
+}
+.members-h {
+    margin-bottom: 30px;
+}
+#members .shadow {
+    box-shadow: .5rem 1rem #ff7f50e0!important;
+}
+.memberbox img {
+    width: 100px;
+    margin: 20px;
+    height: 70px;
+}
+.member{
+    padding-left: 10px;
+}
+
+/*----------------------------------- Video*/
+
+.container-videos {
+    background-color: #ff7f50e0;
+    padding: 0;
+}
+.videos-h {
+    margin: 75px 55px 75px 55px;
+}
+.video-style {
+    width: 100%;
+    text-align: center;
+    padding: 0 15% 5%;
+}
+
+/*----------------------------------- Music*/
+
+.music-h {
+     margin: 75px 55px 35px 55px;
+}
+.container-music {
+    margin: 0px 55px 0px 55px;
+}
+.container-song {
+    padding: 30px;
+}
+
+#music .shadow {
+    box-shadow: .5rem 1rem #ff7f50e0!important;
+}
+audio {
+    margin: 0;
+    width: 250px;
+}
+
+/*----------------------------------- Contact*/
+
+.container-contact {
+    background-color: coral;
+    padding: 5%;
+}
+
+.container-contact-content {
+    padding: 5% 10%;
+}
+
+.container-contact-form {
+    padding: 0 15%;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------------- FOOTER*/
+
+footer {
+    background-color: #28a745;
+    min-height: 120px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+#container-footer {
+    margin: 20px;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+
+/*----------------------------------- FMEDIA QUERIES*/
 
 @media (max-width:760px) {
     .monkeeshome {
         border-left: 1px solid;
         margin: 0;
         border-right: 1px solid;
+        width: 100%;
+    }
+
+
+    .group-img {
+        padding: 5% 10%;
+    }
+    .video-style {
+
+        width: 100%;
+        text-align: center;
+        padding: 0 5% 5%;
+    }
+
+    .container-music {
+        margin: 0;
+        padding: 5%;
+    }
+    .container-contact-form {
+        padding: 5%;
     }
 }
 
-}
-
-.nav-color {
-    background-color: #FFFACD !important;
-}
-
-/*----------------------------------- Text Styles*/
-
-.uppercase {
-    text-transform: uppercase;
+@media (min-width:768px) {
+    audio {
+        margin-left: 0px;
+    }
 }
