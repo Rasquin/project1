@@ -75,7 +75,7 @@ contact page and the social media links ( Facebook, Twitter and YouTube).
 
 
 ### Features Left to Implement
- Allows the user to acces more videos and songs of the band.
+ Allow the user to acces more videos and songs of the band.
  
 
 ## Technologies Used
@@ -105,21 +105,24 @@ GoogleFonts. From here I got the font type of the whole website (permanent marke
  4 Form: if you try to submit it empty or with a wrong email address, a message telling you about
  the relevant error appears.
  
+ Problems solved:
+ . The whole website had a right side margin which origen was unkwon to me. I tested each section 
+ separately until the margin dissapeared. 
  
- The whole website has a right side margin which origen is unkwon to me. 
- It has been difficult to center the navbar.
- I have had problems with the justify-content-center utilitie of Bootstrap.
+ Problems found by the code validator and solved:
+ . CSS: #c2ffa3e0 is not a valid color 3 or 6 hexadecimals numbers : 0.5rem 1rem #c2ffa3e0.
+ . HTML: Stray end tag img. I took out all the </img> tags.
+ . HTML: Duplicate ID navbarDropdown. I changed ID name in the second case.
  
-
 
 ## Deployment
 This project is available in the GitHub platform under the name project1 of Rasquin.
 
-
  This section should describe the process you went through to deploy the project to a hosting 
  platform (e.g. GitHub Pages or Heroku).
- In particular, you should provide all details of the differences between the deployed 
- version and the development version, if any, including:
+ 
+ In particular, you should provide all details of the differences between
+ the deployed  version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
@@ -142,6 +145,7 @@ The photos, audios and the video used in this site were obtained from the projec
 The imagen for stepping stone was copied from Wikipedia https://en.wikipedia.org/wiki/I%27m_a_Believer#/media/File:The_Monkees_single_02_I%27m_a_Believer.jpg
 
 ### Acknowledgements
+The brief for this project was given by Code Institute.
 I received inspiration for this project from my grandmother, who lived and enjojed the 60s. 
 I was listening to her playlist during the early part of the project. 
 

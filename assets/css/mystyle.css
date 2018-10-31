@@ -59,7 +59,7 @@ h3 {
     margin-bottom: 30px;
 }
 #history .shadow {
-    box-shadow: .5rem 1rem  #c2ffa3e0!important;
+    box-shadow: .5rem 1rem  #c2ffa3!important;
 }
 .group-img {
     padding: 5% 20%;
@@ -74,7 +74,7 @@ h3 {
     margin-bottom: 30px;
 }
 #members .shadow {
-    box-shadow: .5rem 1rem #ff7f50e0!important;
+    box-shadow: .5rem 1rem #ff7f50!important;
 }
 .memberbox img {
     width: 100px;
@@ -87,7 +87,7 @@ h3 {
 /*----------------------------------- Video*/
 
 .container-videos {
-    background-color: #ff7f50e0;
+    background-color: #ff7f50;
     padding: 0;
 }
 .videos-h {
@@ -112,7 +112,7 @@ h3 {
 }
 
 #music .shadow {
-    box-shadow: .5rem 1rem #ff7f50e0!important;
+    box-shadow: .5rem 1rem #ff7f50!important;
 }
 audio {
     margin: 0;
