@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!----------------------------------------------------------------------STYLES-->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -16,10 +18,11 @@
 </head>
 
 <body>
-<header>
 
+    <!-------------------------------------------------------------------------------NAVBAR-->
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light nav-color">
-            <a class="navbar-brand text-uppercase" href="index.html"><img src="assets/images/guitar.png" alt="A guitar"></a>
+            <a class="navbar-brand text-uppercase" href="#history"><img src="assets/images/guitar.png" alt="A guitar"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,14 +54,11 @@
                     </ul>
                 </div>
             </div>
-
             <a class="navbar-brand text-uppercase" href="#members"><img src="assets/images/heads.png" alt="heads of the members"></a>
-
-
         </nav>
-
     </header>
 
+    <!-------------------------------------------------------------------------------HOME SECTION-->
     <section id="home" class="container-fluid">
 
         <div class="row home-bg">
@@ -70,61 +70,72 @@
         </div>
     </section>
 
+    <!-------------------------------------------------------------------------------ABOUT SECTION-->
     <section id="about" class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-xs-12">
-                <h1 class="monkees-h text-uppercase">The Monkees</h1>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="monkees-h text-uppercase text-center">The Monkees</h1>
             </div>
         </div>
         <div class="row monkees-articles">
-            <div class="col-xs-12 col-lg-6">
+            <!-----------------------------------------------------HISTORY-->
+            <div class="col-12 col-lg-6">
                 <div id="history" class="container-history">
                     <div class="row">
-                        <div class="col-xs-12 container-fluid">
+                        <div class="col-12 container-fluid">
                             <h2 class="text-center history-h text-uppercase">History</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12">
+                        <div class="col-12">
                             <p class="text-justify"> <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">The Monkees</a> are an American rock and pop band formed in Los Angeles in 1965. Originally they were four actor-musicians for the American television series
                                 "The Monkees" (1966 - 1968). The band was integrated by Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the British actor and singer Davy Jones.
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12">
+                        <div class="col-12">
                             <img src="assets/images/cover1.jpg" alt="Group The Monkees" class="group-img shadow mb-5">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="index.html">
+                                <p class="text-muted text-right d-lg-none">Go to Top</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-lg-6">
+
+            <!-----------------------------------------------------MEMBERS-->
+            <div class="col-12 col-lg-6">
                 <div id="members" class="container-members">
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 ">
+                        <div class="col-12 ">
                             <h2 class="text-center members-h text-uppercase">Members</h2>
                         </div>
                     </div>
                     <div class="row memberbox">
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-xs-4">
+                                <div class="col-12 col-sm-4">
                                     <img src="assets/images/md.jpg" alt="Micky Dolenz" class="shadow mb-5">
                                 </div>
-                                <div class="col-xs-8">
+                                <div class="col-12 col-sm-8">
                                     <div class="member">
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Micky_Dolenz">Micky Dolenz</a></h3>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h4>Drum Kits</h4>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <p>(since 1966)</p>
                                             </div>
                                         </div>
@@ -132,21 +143,20 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-xs-4">
+                                <div class="col-12 col-sm-4">
                                     <img src="assets/images/mn.jpg" alt="Michael Nesmith" class="shadow mb-5">
                                 </div>
-                                <div class="col-xs-8">
+                                <div class="col-12 col-sm-8">
                                     <div class="member">
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Michael_Nesmith">Michael Nesmith</a></h3>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h4>Guitars</h4>
                                             </div>
                                         </div>
@@ -154,23 +164,22 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="row memberbox">
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-xs-4">
+                                <div class="col-12 col-sm-4">
                                     <img src="assets/images/pt.jpg" alt="Peter Tork" class="shadow mb-5">
                                 </div>
-                                <div class="col-xs-8">
+                                <div class="col-12 col-sm-8">
                                     <div class="member">
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Peter_Tork">Peter Tork</a></h3>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h4>Guitars</h4>
                                             </div>
                                         </div>
@@ -178,26 +187,25 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-xs-4">
+                                <div class="col-12 col-sm-4">
                                     <img src="assets/images/dj.jpg" alt="Davy Jones" class="shadow mb-5">
                                 </div>
-                                <div class="col-xs-8">
+                                <div class="col-12 col-sm-8">
                                     <div class="member">
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h3><a target="_blank" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)">Davy Jones</a></h3>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <h4>Guitars</h4>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-12">
                                                 <p>(1966-2012)</p>
                                             </div>
                                         </div>
@@ -205,56 +213,78 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="index.html">
+                                <p class="text-muted text-right">Go to Top</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-   <section id="videos" class="container-fluid">
+    <!-------------------------------------------------------------------------------VIDEO SECTION-->
+    <section id="videos" class="container-fluid">
         <div class="row container-videos">
-            <div class="col-sm-12">
+
+            <!-----------------------------------------------------VIDEO TITLE-->
+            <div class="col-12">
                 <h2 class="text-center videos-h text-uppercase">Videos</h2>
             </div>
-            <div class="col-sm-12">
+
+            <!---------------------------------------------------NAME OF VIDEO-->
+            <div class="col-12">
                 <h3 class="text-center video-h">Daydream Believer</h3>
             </div>
-            <div class="col-sm-12">
+
+            <!-----------------------------------------------------VIDEO PLAY-->
+            <div class="col-12">
                 <video class="video-style" src="assets/video/TheMonkees.mp4" controls> 
                 </video>
+            </div>
 
+            <!------------------------------------------------GO TO TOP MENU---->
+            <div class="col-12">
+                <a href="index.html">
+                    <p class="text-muted text-right">Go to Top</p>
+                </a>
             </div>
         </div>
     </section>
 
+    <!-------------------------------------------------------------------------------MUSIC SECTION-->
     <section id="music" class="container-fluid">
+
+        <!-----------------------------------------------------MUSIC TITLE-->
         <div class="row justify-content-center">
-            <div class="col-xs-12 ">
+            <div class="col-12 ">
                 <h2 class="music-h text-uppercase">Music</h2>
             </div>
         </div>
+
+        <!-------------------------------------------1ST ROW OF TWO SONGS---->
         <div class="row memberbox container-music">
-            <div class="col-xs-12 col-lg-6 container-song">
+            <div class="col-12 col-lg-6 container-song">
 
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <h3> <a href="https://en.wikipedia.org/wiki/Last_Train_to_Clarksville" target="_blank">Clarksville (1966)</a></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <p class="text-justify">The song was written by Tommy Boyce and Bobby Hart. The lyrics tell of a man phoning the woman he loves, urging her to meet him at a train station in Clarksville before he must leave, possibly forever.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-12 col-sm-4">
                         <img src="assets/images/album.jpg" alt="Album" class="shadow mb-5">
                     </div>
 
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-12 col-sm-8">
                         <audio controls>
                            <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                       Your browser does not support the audio element.
@@ -264,22 +294,22 @@
                 </div>
 
             </div>
-            <div class="col-xs-12 col-lg-6 container-song">
+            <div class="col-12 col-lg-6 container-song">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <h3><a href="https://en.wikipedia.org/wiki/I%27m_a_Believer" target="_blank">I am a Believer (1966)</a></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <p class="text-justify">It is a song composed by Neil Diamond.The song was No. 1 in the UK Singles Chart for four weeks in January and February 1967 and reached the top spot in numerous countries, including Australia, New Zealand, Canada, and Ireland.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-12 col-sm-4">
                         <img src="assets/images/album2.jpg" alt="Album 2" class="shadow mb-5">
                     </div>
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-12 col-sm-8">
                         <audio controls>
                                <source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
                       Your browser does not support the audio element.
@@ -288,27 +318,27 @@
                 </div>
             </div>
         </div>
+
+        <!-------------------------------------------2ND ROW OF TWO SONGS---->
         <div class="row memberbox container-music">
-
-
-            <div class="col-xs-12 col-lg-6 container-song">
+            <div class="col-12 col-lg-6 container-song">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <h3><a href="https://en.wikipedia.org/wiki/(I%27m_Not_Your)_Steppin%27_Stone" target="_blank">Stepping Stone (1966)</a></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <p class="text-justify">It is a song written by Tommy Boyce and Bobby Hart. The song is simple musically, with a repeating verse chord progression of E major, G major, A major, and C major, and a repeating bridge in cut time of E major, G major, A major,
                             and G major.
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-12 col-sm-4">
                         <img src="assets/images/album3.jpg" alt="Album 3" class="shadow mb-5">
                     </div>
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-12 col-sm-8">
                         <audio controls>
                        <source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
                       Your browser does not support the audio element.
@@ -317,23 +347,23 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-lg-6 container-song">
+            <div class="col-12 col-lg-6 container-song">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <h3><a href="https://en.wikipedia.org/wiki/Daydream_Believer" target="_blank">Daydream Believer (1967)</a></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         <p class="text-justify">The song composed by John Stewart. The soong is about Married couples that start out in an idealistic haze, but after a few years it wears off, and each sees the other as he or she really is. This is, supposedly, when genuine love
                             is proven.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-12 col-sm-4">
                         <img src="assets/images/cover.jpg" alt="Cover" class="shadow mb-5">
                     </div>
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-12 col-sm-8">
                         <audio controls>
                        <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
                       Your browser does not support the audio element.
@@ -344,34 +374,53 @@
 
 
         </div>
+
+        <!------------------------------------------------GO TO TOP MENU---->
+        <div class="row">
+            <div class="col-12">
+                <a href="index.html">
+                    <p class="text-muted text-right">Go to Top</p>
+                </a>
+            </div>
+        </div>
     </section>
-    
+
+    <!-------------------------------------------------------------------------------FOOTER--------->
     <footer Class="container-fluid">
         <div id="container-footer" class="row">
-            <div class="col-sm-4 ">
+            <!-------------------------------------------------------------------------------CONTACT-->
+            <div class="col-12 col-sm-4 ">
                 <h5 class="text-center text-uppercase"><a href="contact.html">Contact</a></h5>
                 <p class="inline-block">Want us to play for u? <i class="fas fa-envelope"></i></p>
             </div>
-            <div class="col-sm-4">
+            
+            <!-------------------------------------------------------------------------------COPYRIGHT-->
+            <div class="col-12 col-sm-4">
 
                 <p class="text-center text-uppercase">CopyRight Monica Rasquin <i class="far fa-copyright"></i> </p>
             </div>
-            <div class="col-sm-4">
-                
+            
+            <!----------------------------------------------------------------------------SOCIAL MEDIA-->
+            <div class="col-12 col-sm-4">
+
                 <h5 class="text-uppercase">Follow Us</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
                 </ul>
-               
+
             </div>
         </div>
     </footer>
 
+
+    <!------------------------------------------------------------------------------SCRIPTS AREA------>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

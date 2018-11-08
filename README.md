@@ -61,9 +61,11 @@ You have acces to more information (Wikipedia) by click the name of the band in 
 in the group. By clicking the interested name, you will be redirected to Wikipedia where
 there is more information.
 c. videos: here you can watch them performing Daydeream Believer.
-c. Music: Displays 4 song, you can chose which to listen to. Each song has its title, the year of release, 
+d. Music: Displays 4 song, you can chose which to listen to. Each song has its title, the year of release, 
 a short description of the song and  an image of its album. Besides, by clicking the name of the some you 
 will be redirected to a Wikipedia section where you can get more information.
+
+Each section of the scrolling page has a buttom to go back to the top.
 
 The contact page contents a form where the user can ask the band to perform for an event or party. 
 The form ask you for your name, the date of your event and a short description of it. All this information
@@ -89,7 +91,7 @@ to get functionality in the Bootstrap's components. http://getbootstrap.com/
 .fontawesome v5.3.1 The icons for message box, facebook, twitter and YouTube and CopyRight.
 https://fontawesome.com/icons?d=gallery
 GoogleFonts. From here I got the font type of the whole website (permanent market).https://fonts.google.com/
-.Onw CSS style sheet. To make my own styles and overwrite some of the Bootstrap style library.
+.Own CSS style sheet. To make my own styles and overwrite some of the Bootstrap style library.
 
 
 ## Testing
@@ -116,17 +118,8 @@ GoogleFonts. From here I got the font type of the whole website (permanent marke
  
 
 ## Deployment
-This project is available in the GitHub platform under the name project1 of Rasquin.
-
- This section should describe the process you went through to deploy the project to a hosting 
- platform (e.g. GitHub Pages or Heroku).
- 
- In particular, you should provide all details of the differences between
- the deployed  version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
- In addition, if it is not obvious, you should also describe how to run your code locally.
+This project is available in the GitHub platform under the name  https://rasquin.github.io/project1/ 
+The wareframes are located in assets/wareframes/wareframexs.png https://github.com/Rasquin/project1/tree/master/assets/wareframes
 
 ## Credits
 ### Content

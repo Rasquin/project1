@@ -18,7 +18,11 @@ body {
 
     color: #dc3545;
 }
-
+/*------------------------------------Go to Top Bar*/
+.gotop{
+    background-color: transparent;
+  
+}
 /*------------------------------------Home*/
 .home-bg {
     background-color: #c2ffa3;
@@ -62,7 +66,7 @@ h3 {
     box-shadow: .5rem 1rem  #c2ffa3!important;
 }
 .group-img {
-    padding: 5% 20%;
+    padding: 5% 15%;
 }
 
 /*----------------------------------- Members*/
@@ -172,7 +176,7 @@ footer {
 
 
     .group-img {
-        padding: 5% 10%;
+        padding: 0;
     }
     .video-style {
 
